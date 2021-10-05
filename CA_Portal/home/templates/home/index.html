@@ -33,12 +33,14 @@
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Benefits</a></li>
-            <li><a href="#">Responsibilities</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Login</a></li>
-            <li id="join-button"><a href="#">Join Now</a></li>
+            <li><a href="#" id="navlink1">About</a></li>
+            <li><a href="#" id="navlink2">Benefits</a></li>
+            <li><a href="#" id="navlink3">Responsibilities</a></li>
+            <li><a href="#" id="navlink4">FAQs</a></li>
+            <li><a href="#" id="navlink5">Login</a></li>
+            <li id="join-button">
+              <a href="#" id="join-button-text">Join Now</a>
+            </li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -202,5 +204,6 @@
         navLinks.style.right = "-200px";
       }
     </script>
+    <script src="{% static 'home/main.js' %}"></script>
   </body>
 </html>
