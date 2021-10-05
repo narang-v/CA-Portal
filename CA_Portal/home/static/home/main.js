@@ -1,5 +1,4 @@
 var navbar = document.querySelector("nav");
-var icon = document.querySelector("icon");
 var navbarlink1 = document.getElementById("navlink1");
 var navbarlink2 = document.getElementById("navlink2");
 var navbarlink3 = document.getElementById("navlink3");
@@ -12,7 +11,6 @@ window.onscroll = function () {
   // pageYOffset or scrollY
   if (window.pageYOffset > 0) {
     navbar.classList.add("scrolled");
-    icon.classList.add("icon-scroll");
     navbarlink1.classList.add("scroll");
     navbarlink2.classList.add("scroll");
     navbarlink3.classList.add("scroll");
